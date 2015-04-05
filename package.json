@@ -1,0 +1,13 @@
+{
+  "name": "micro-services-test",
+  "description": "micro-services-test",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test/read-csv.test.js"
+  },
+  "dependencies": {
+    "csv-parse": "^0.1.0",
+    "seneca": "plugin",
+    "seneca-rabbitmq-transport": "^0.2.1"
+  }
+}
