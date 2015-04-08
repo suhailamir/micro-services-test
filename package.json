@@ -6,7 +6,11 @@
     "test": "node test/read-csv.test.js"
   },
   "dependencies": {
+    "bluebird": "^2.9.24",
     "csv-parse": "^0.1.0",
+    "harmonia": "^2.1.0",
+    "joi": "^6.1.0",
+    "lodash": "^3.6.0",
     "seneca": "plugin",
     "seneca-rabbitmq-transport": "^0.2.1"
   }
