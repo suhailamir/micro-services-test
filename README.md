@@ -13,7 +13,7 @@ node server.js
 
 # To consume the service via HTTP type following command in terminal.
 
- curl -d '{"role":"read-csv","cmd":"return-json"}' http://localhost:10203/act
+ curl -d '{"role":"read-csv","cmd":"return-json","file_path":'YOUR CSV FILE PATH'}' http://localhost:10203/act
 
-It will print the contents of public/test.csv file to console. 
+It will print the contents of your file to console. 
 
